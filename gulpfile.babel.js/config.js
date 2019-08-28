@@ -8,30 +8,23 @@ export const paths = {
   dest: './dist',
   deploy: './dist/**/*',
   styles: {
-    src: 'src/styles/main.scss',
-    watch: 'src/styles/**/*.scss',
-    modules: 'src/modules/**/*.scss',
+    src: './src/styles/main.scss',
+    watch: './src/styles/**/*.scss',
     dest: 'dist/css',
-    lint: 'src/styles/**/*.s+(a|c)ss'
+    lint: './src/styles/**/*.s+(a|c)ss'
   },
   scripts: {
     src: './src/scripts/app.js',
-    watch: 'src/scripts/**/*.js',
-    modules: 'src/modules/**/*.js',
+    watch: './src/scripts/**/*.js',
     dest: 'dist/js',
   },
-  templates: {
-    src: 'src/templates/*.html',
-    watch: 'src/templates/*.html',
-    modules: 'src/modules/**/*.html',
+  views: {
+    src: './src/views/*.html',
+    watch: './src/views/*.html',
     dest: 'dist/'
   },
   assets: {
-    src: 'src/assets/**/*',
+    src: './src/assets/**/*',
     dest: 'dist/assets'
-  },
-  copy: {
-    src: 'src/robots.txt',
-    dest: 'dist/'
   }
 };

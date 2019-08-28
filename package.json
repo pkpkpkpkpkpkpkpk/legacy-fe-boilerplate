@@ -26,7 +26,6 @@
     "gulp-sass-glob": "^1.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-stylelint": "^9.0.0",
-    "gulp-twig": "^1.2.0",
     "node-notifier": "^5.4.1",
     "sass-loader": "^7.2.0",
     "style-loader": "^1.0.0",
@@ -53,7 +52,6 @@
     "url": "git+https://github.com/tomaszbujnowicz/hybrid-utility-itcss.git"
   },
   "keywords": [
-    "utility css",
     "itcss",
     "gulp",
     "gulp 4",
@@ -61,7 +59,6 @@
     "webpack 4",
     "babel",
     "browsersync",
-    "twig",
     "css architecture",
     "sass",
     "frontend",

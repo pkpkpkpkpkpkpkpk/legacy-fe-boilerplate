@@ -5,7 +5,6 @@
 
 // Dependencies
 import { src, dest } from 'gulp';
-import babel from 'gulp-babel';
 import plumber from 'gulp-plumber';
 import changed from "gulp-changed";
 import errorHandler from '../util/errorHandler.js';

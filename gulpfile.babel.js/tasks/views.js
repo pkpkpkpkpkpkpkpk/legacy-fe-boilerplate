@@ -8,9 +8,9 @@ import beautify from 'gulp-jsbeautifier';
 import { paths } from "../config";
 
 // Task
-export function templates() {
-  return src(paths.templates.src)
+export function views() {
+  return src(paths.views.src)
     .pipe(plumber({errorHandler}))
     .pipe(beautify({ indent_size: 2 }))
-    .pipe(dest(paths.templates.dest))
-};
+    .pipe(dest(paths.views.dest))
+}
