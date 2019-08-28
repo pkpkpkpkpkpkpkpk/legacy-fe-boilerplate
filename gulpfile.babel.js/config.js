@@ -23,8 +23,12 @@ export const paths = {
     watch: './src/views/*.html',
     dest: 'dist/'
   },
-  assets: {
-    src: './src/assets/**/*',
-    dest: 'dist/assets'
+  images: {
+    src: './src/assets/images/*',
+    dest: 'dist/assets/images'
+  },
+  fonts: {
+    src: './src/assets/fonts/*',
+    dest: 'dist/assets/fonts'
   }
 };

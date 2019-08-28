@@ -11,9 +11,10 @@ import { clean } from './clean';
 import { styles } from './styles';
 import { scripts } from './scripts';
 import { views } from './views';
-import { assets } from './assets';
+import { images } from './images';
+import { fonts } from './fonts';
 
 export const build = series(
   clean,
-  parallel(styles, scripts, views, assets)
+  parallel(styles, scripts, views, images, fonts)
 );
